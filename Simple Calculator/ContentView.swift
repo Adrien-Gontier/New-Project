@@ -4,7 +4,9 @@
 //
 //  Created by Adrien on 30/04/2024.
 //
-// Create button : Numbers
+// Create button : Numbers => 0
+// Create button : Numbers => 1
+
 
 import SwiftUI
 
