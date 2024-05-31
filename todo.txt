@@ -11,3 +11,4 @@ Create button : Numbers => 9
 Create button : Operational => +
 Create button : Operational => -
 Create button : Operational => *
+Create button : Operational => /
