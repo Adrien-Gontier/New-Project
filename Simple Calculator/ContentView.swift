@@ -11,14 +11,18 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+    @State var result : Int = 0
+        var body: some View {
+            Text("Simple Calculator")
+                .padding()
+                .font(.system(size: 30))
+                .fixedSize()
+                .frame(width: 100, height: 0)
+            Text(String(describing: result))
+                .padding()
+                .font(.system(size: 40))
+                .fixedSize()
+                .frame(width: 250, height: 200)
     }
 }
 
