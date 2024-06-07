@@ -13,3 +13,6 @@ Create button : Operational => -
 Create button : Operational => *
 Create button : Operational => /
 Create button : => AC / C
+
+To be dev :
+- We can't divide by zero
