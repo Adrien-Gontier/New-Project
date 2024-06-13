@@ -150,6 +150,24 @@ struct ContentView: View {
                     }.padding(.bottom, 30)
 
 
+            Button {
+                    action: do {
+                        tempString = tempString + "8"
+                    }
+                    }label: {
+                        Text("8")
+                            .padding([.top, .bottom], 15)
+                            .padding([.trailing, .leading], 25)
+                            .font(.system(size: 25))
+                            .foregroundColor(.blue)
+                            .background(.white)
+                            .overlay(RoundedRectangle(cornerRadius: 20)
+                                .stroke(Color.blue, lineWidth: 5))
+                            .fixedSize()
+                            .frame(width: 50, height: 60)
+                    }.padding(.bottom, 30)                    
+
+
     }
 }
 
