@@ -17,6 +17,7 @@ Create button : => AC / C
 To be dev :
 - We can't divide by zero
 - How to convert string to number (integer)
+- How to do the operation
 - Do the UI of the button
 
 
