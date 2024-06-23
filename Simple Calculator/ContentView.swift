@@ -62,7 +62,7 @@ struct ContentView: View {
                             .frame(width: 50, height: 60)
                     }.padding(.bottom, 30)
 
-            
+    
             Button {
                     action: do {
                         tempString = tempString + "2"
@@ -79,7 +79,7 @@ struct ContentView: View {
                             .fixedSize()
                             .frame(width: 50, height: 60)
                     }.padding(.bottom, 30)
-            
+   /*
             Button {
                     action: do {
                         tempString = tempString + "3"
@@ -205,7 +205,7 @@ struct ContentView: View {
                             .frame(width: 50, height: 60)
                     }.padding(.bottom, 30) 
 
-
+*/
 
     }
 }
