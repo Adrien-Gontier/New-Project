@@ -17,7 +17,7 @@ Create button : => AC / C
 To be dev :
 - We can't divide by zero
 - How to convert string to number (integer)
-- The display
+- The display of the result
 
 let myString1 = "556"
 let myInt1 = Int(myString1)
