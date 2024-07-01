@@ -97,7 +97,7 @@ struct ContentView: View {
                             .frame(width: 50, height: 60)
                     }.padding(.bottom, 30)
 
-/*
+
             Button {
                     action: do {
                         tempString = tempString + "4"
@@ -116,7 +116,7 @@ struct ContentView: View {
                     }.padding(.bottom, 30)
 
                     
-            Button {
+/*            Button {
                     action: do {
                         tempString = tempString + "5"
                     }
