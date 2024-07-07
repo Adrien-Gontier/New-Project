@@ -116,7 +116,7 @@ struct ContentView: View {
                     }.padding(.bottom, 30)
 
                     
-/*            Button {
+            Button {
                     action: do {
                         tempString = tempString + "5"
                     }
@@ -134,7 +134,7 @@ struct ContentView: View {
                     }.padding(.bottom, 30)                                        
             
 
-            Button {
+  /*          Button {
                     action: do {
                         tempString = tempString + "6"
                     }
@@ -204,24 +204,6 @@ struct ContentView: View {
                             .fixedSize()
                             .frame(width: 50, height: 60)
                     }.padding(.bottom, 30) 
-
-
-            Button {
-                    action: do {
-                        tempString = "0"
-                    }
-                    }label: {
-                        Text("C")
-                            .padding([.top, .bottom], 15)
-                            .padding([.trailing, .leading], 25)
-                            .font(.system(size: 25))
-                            .foregroundColor(.blue)
-                            .background(.white)
-                            .overlay(RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.blue, lineWidth: 5))
-                            .fixedSize()
-                            .frame(width: 50, height: 60)
-                    }.padding(.bottom, 30)                     
 
 */
 
