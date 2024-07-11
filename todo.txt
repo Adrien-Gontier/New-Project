@@ -29,6 +29,7 @@ let myInt2 = Int(myString) ?? 0
 - How to do the operation
 - Do the UI of the button
 - Test the code : debugging begun
+- Write the documentation
 
 
 
