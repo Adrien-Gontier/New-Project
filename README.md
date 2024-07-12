@@ -1,1 +1,3 @@
 # New-Project
+
+Simple calculator
