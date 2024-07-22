@@ -31,15 +31,7 @@ let myInt2 = Int(myString) ?? 0
 - Test the code : debugging begun
 - Write the documentation
 - Find a way to aline the button on a horizontal line :
-HStack {
-    Text("Live")
-        .font(.caption)
-    Text("long")
-    Text("and")
-        .font(.title)
-    Text("prosper")
-        .font(.largeTitle)
-}
+
 
 VStack {
     Text("Live")
