@@ -30,7 +30,6 @@ let myInt2 = Int(myString) ?? 0
 - Do the UI of the button => NOW
 - Test the code : debugging begun
 - Write the documentation
-- Find a way to aline the button on a horizontal line :
 
 
 * RENAME THE PROJECT
