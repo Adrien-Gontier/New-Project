@@ -3,7 +3,16 @@
 //  Simple Calculator
 //
 //  Created by Adrien on 30/04/2024.
-
+//
+// HStack {
+//    Text("Live")
+//        .font(.caption)
+//    Text("long")
+//    Text("and")
+//        .font(.title)
+//    Text("prosper")
+//        .font(.largeTitle)
+//}
 //
 // VStack {
 //    Text("Live")
@@ -107,58 +116,63 @@ struct ContentView: View {
                 }.padding(.bottom, 30)
             }
 
-            Button {
-                    action: do {
-                        tempString = tempString + "4"
-                    }
-                    }label: {
-                        Text("4")
-                            .padding([.top, .bottom], 15)
-                            .padding([.trailing, .leading], 25)
-                            .font(.system(size: 25))
-                            .foregroundColor(.blue)
-                            .background(.white)
-                            .overlay(RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.blue, lineWidth: 5))
-                            .fixedSize()
-                            .frame(width: 50, height: 60)
-                    }.padding(.bottom, 30)
-
-                    
-            Button {
-                    action: do {
-                        tempString = tempString + "5"
-                    }
-                    }label: {
-                        Text("5")
-                            .padding([.top, .bottom], 15)
-                            .padding([.trailing, .leading], 25)
-                            .font(.system(size: 25))
-                            .foregroundColor(.blue)
-                            .background(.white)
-                            .overlay(RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.blue, lineWidth: 5))
-                            .fixedSize()
-                            .frame(width: 50, height: 60)
-                    }.padding(.bottom, 30)                                        
             
-
-           Button {
-                    action: do {
-                        tempString = tempString + "6"
-                    }
-                    }label: {
-                        Text("6")
-                            .padding([.top, .bottom], 15)
-                            .padding([.trailing, .leading], 25)
-                            .font(.system(size: 25))
-                            .foregroundColor(.blue)
-                            .background(.white)
-                            .overlay(RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.blue, lineWidth: 5))
-                            .fixedSize()
-                            .frame(width: 50, height: 60)
-                    }.padding(.bottom, 30)             
+            HStack {
+                Button {
+                action: do {
+                    tempString = tempString + "4"
+                }
+                }label: {
+                    Text("4")
+                        .padding([.top, .bottom], 15)
+                        .padding([.trailing, .leading], 25)
+                        .font(.system(size: 25))
+                        .foregroundColor(.blue)
+                        .background(.white)
+                        .overlay(RoundedRectangle(cornerRadius: 20)
+                            .stroke(Color.blue, lineWidth: 5))
+                        .fixedSize()
+                        .frame(width: 50, height: 60)
+                }.padding(.bottom, 30)
+                
+                
+                Button {
+                action: do {
+                    tempString = tempString + "5"
+                }
+                }label: {
+                    Text("5")
+                        .padding([.top, .bottom], 15)
+                        .padding([.trailing, .leading], 25)
+                        .font(.system(size: 25))
+                        .foregroundColor(.blue)
+                        .background(.white)
+                        .overlay(RoundedRectangle(cornerRadius: 20)
+                            .stroke(Color.blue, lineWidth: 5))
+                        .fixedSize()
+                        .frame(width: 50, height: 60)
+                }.padding(.bottom, 30)                                        
+                
+                
+                Button {
+                action: do {
+                    tempString = tempString + "6"
+                }
+                }label: {
+                    Text("6")
+                        .padding([.top, .bottom], 15)
+                        .padding([.trailing, .leading], 25)
+                        .font(.system(size: 25))
+                        .foregroundColor(.blue)
+                        .background(.white)
+                        .overlay(RoundedRectangle(cornerRadius: 20)
+                            .stroke(Color.blue, lineWidth: 5))
+                        .fixedSize()
+                        .frame(width: 50, height: 60)
+                }.padding(.bottom, 30)
+            }
+                
+                
 
 /*
             Button {
