@@ -33,4 +33,4 @@ let myInt2 = Int(myString) ?? 0
 
 
 * RENAME THE PROJECT
-* TEST THE CODE
+* TEST THE CODE => In progress
