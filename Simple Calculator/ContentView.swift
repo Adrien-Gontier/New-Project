@@ -62,60 +62,7 @@ struct ContentView: View {
                     }.padding(.bottom, 30)
 
 
-            HStack {
-                Button {
-                action: do {
-                    tempString = tempString + "1"
-                }
-                }label: {
-                    Text("1")
-                        .padding([.top, .bottom], 15)
-                        .padding([.trailing, .leading], 25)
-                        .font(.system(size: 25))
-                        .foregroundColor(.blue)
-                        .background(.white)
-                        .overlay(RoundedRectangle(cornerRadius: 20)
-                            .stroke(Color.blue, lineWidth: 5))
-                        .fixedSize()
-                        .frame(width: 50, height: 60)
-                }.padding(.bottom, 30).padding([.trailing], 10)
-                
-                
-                Button {
-                action: do {
-                    tempString = tempString + "2"
-                }
-                }label: {
-                    Text("2")
-                        .padding([.top, .bottom], 15)
-                        .padding([.trailing, .leading], 25)
-                        .font(.system(size: 25))
-                        .foregroundColor(.blue)
-                        .background(.white)
-                        .overlay(RoundedRectangle(cornerRadius: 20)
-                            .stroke(Color.blue, lineWidth: 5))
-                        .fixedSize()
-                        .frame(width: 50, height: 60)
-                }.padding(.bottom, 30).padding([.trailing], 10)
-                
-                Button {
-                action: do {
-                    tempString = tempString + "3"
-                }
-                }label: {
-                    Text("3")
-                        .padding([.top, .bottom], 15)
-                        .padding([.trailing, .leading], 25)
-                        .font(.system(size: 25))
-                        .foregroundColor(.blue)
-                        .background(.white)
-                        .overlay(RoundedRectangle(cornerRadius: 20)
-                            .stroke(Color.blue, lineWidth: 5))
-                        .fixedSize()
-                        .frame(width: 50, height: 60)
-                }.padding(.bottom, 30).padding([.trailing], 10)
-            }
-
+           
             
             HStack {
                 Button {
@@ -229,6 +176,63 @@ struct ContentView: View {
                     }.padding(.bottom, 30) 
 
 */
+            
+            HStack {
+                Button {
+                action: do {
+                    tempString = tempString + "1"
+                }
+                }label: {
+                    Text("1")
+                        .padding([.top, .bottom], 15)
+                        .padding([.trailing, .leading], 25)
+                        .font(.system(size: 25))
+                        .foregroundColor(.blue)
+                        .background(.white)
+                        .overlay(RoundedRectangle(cornerRadius: 20)
+                            .stroke(Color.blue, lineWidth: 5))
+                        .fixedSize()
+                        .frame(width: 50, height: 60)
+                }.padding(.bottom, 30).padding([.trailing], 10)
+                
+                
+                Button {
+                action: do {
+                    tempString = tempString + "2"
+                }
+                }label: {
+                    Text("2")
+                        .padding([.top, .bottom], 15)
+                        .padding([.trailing, .leading], 25)
+                        .font(.system(size: 25))
+                        .foregroundColor(.blue)
+                        .background(.white)
+                        .overlay(RoundedRectangle(cornerRadius: 20)
+                            .stroke(Color.blue, lineWidth: 5))
+                        .fixedSize()
+                        .frame(width: 50, height: 60)
+                }.padding(.bottom, 30).padding([.trailing], 10)
+                
+                Button {
+                action: do {
+                    tempString = tempString + "3"
+                }
+                }label: {
+                    Text("3")
+                        .padding([.top, .bottom], 15)
+                        .padding([.trailing, .leading], 25)
+                        .font(.system(size: 25))
+                        .foregroundColor(.blue)
+                        .background(.white)
+                        .overlay(RoundedRectangle(cornerRadius: 20)
+                            .stroke(Color.blue, lineWidth: 5))
+                        .fixedSize()
+                        .frame(width: 50, height: 60)
+                }.padding(.bottom, 30).padding([.trailing], 10)
+            }
+
+            
+            
 
     }
 }
