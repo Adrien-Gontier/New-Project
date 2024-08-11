@@ -121,7 +121,7 @@ struct ContentView: View {
                 
                 
 
-
+ HStack {
             Button {
                     action: do {
                         tempString = tempString + "7"
@@ -174,7 +174,7 @@ struct ContentView: View {
                             .fixedSize()
                             .frame(width: 50, height: 60)
                     }.padding(.bottom, 30).padding([.trailing], 10) 
-
+ }
 
             
             HStack {
