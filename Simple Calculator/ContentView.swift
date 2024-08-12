@@ -63,6 +63,65 @@ struct ContentView: View {
 
 
            
+            HStack {
+                       Button {
+                               action: do {
+                                   tempString = tempString + "7"
+                               }
+                               }label: {
+                                   Text("7")
+                                       .padding([.top, .bottom], 15)
+                                       .padding([.trailing, .leading], 25)
+                                       .font(.system(size: 25))
+                                       .foregroundColor(.blue)
+                                       .background(.white)
+                                       .overlay(RoundedRectangle(cornerRadius: 20)
+                                           .stroke(Color.blue, lineWidth: 5))
+                                       .fixedSize()
+                                       .frame(width: 50, height: 60)
+                               }.padding(.bottom, 30).padding([.trailing], 10)
+
+
+                       Button {
+                               action: do {
+                                   tempString = tempString + "8"
+                               }
+                               }label: {
+                                   Text("8")
+                                       .padding([.top, .bottom], 15)
+                                       .padding([.trailing, .leading], 25)
+                                       .font(.system(size: 25))
+                                       .foregroundColor(.blue)
+                                       .background(.white)
+                                       .overlay(RoundedRectangle(cornerRadius: 20)
+                                           .stroke(Color.blue, lineWidth: 5))
+                                       .fixedSize()
+                                       .frame(width: 50, height: 60)
+                               }.padding(.bottom, 30).padding([.trailing], 10)
+
+
+                       Button {
+                               action: do {
+                                   tempString = tempString + "9"
+                               }
+                               }label: {
+                                   Text("9")
+                                       .padding([.top, .bottom], 15)
+                                       .padding([.trailing, .leading], 25)
+                                       .font(.system(size: 25))
+                                       .foregroundColor(.blue)
+                                       .background(.white)
+                                       .overlay(RoundedRectangle(cornerRadius: 20)
+                                           .stroke(Color.blue, lineWidth: 5))
+                                       .fixedSize()
+                                       .frame(width: 50, height: 60)
+                               }.padding(.bottom, 30).padding([.trailing], 10)
+            }
+
+            
+            
+            
+            
             
             HStack {
                 Button {
@@ -121,61 +180,7 @@ struct ContentView: View {
                 
                 
 
- HStack {
-            Button {
-                    action: do {
-                        tempString = tempString + "7"
-                    }
-                    }label: {
-                        Text("7")
-                            .padding([.top, .bottom], 15)
-                            .padding([.trailing, .leading], 25)
-                            .font(.system(size: 25))
-                            .foregroundColor(.blue)
-                            .background(.white)
-                            .overlay(RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.blue, lineWidth: 5))
-                            .fixedSize()
-                            .frame(width: 50, height: 60)
-                    }.padding(.bottom, 30).padding([.trailing], 10)    
-
-
-            Button {
-                    action: do {
-                        tempString = tempString + "8"
-                    }
-                    }label: {
-                        Text("8")
-                            .padding([.top, .bottom], 15)
-                            .padding([.trailing, .leading], 25)
-                            .font(.system(size: 25))
-                            .foregroundColor(.blue)
-                            .background(.white)
-                            .overlay(RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.blue, lineWidth: 5))
-                            .fixedSize()
-                            .frame(width: 50, height: 60)
-                    }.padding(.bottom, 30).padding([.trailing], 10)                 
-
-
-            Button {
-                    action: do {
-                        tempString = tempString + "9"
-                    }
-                    }label: {
-                        Text("9")
-                            .padding([.top, .bottom], 15)
-                            .padding([.trailing, .leading], 25)
-                            .font(.system(size: 25))
-                            .foregroundColor(.blue)
-                            .background(.white)
-                            .overlay(RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.blue, lineWidth: 5))
-                            .fixedSize()
-                            .frame(width: 50, height: 60)
-                    }.padding(.bottom, 30).padding([.trailing], 10) 
- }
-
+ 
             
             HStack {
                 Button {
