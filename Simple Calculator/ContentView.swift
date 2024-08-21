@@ -233,7 +233,7 @@ struct ContentView: View {
                             .stroke(Color.blue, lineWidth: 5))
                         .fixedSize()
                         .frame(width: 50, height: 60)
-                }.padding(.bottom, 30).padding([.trailing], 10)
+                }.padding(.bottom, 0).padding([.trailing], 10)
             }
 
             
