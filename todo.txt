@@ -21,6 +21,8 @@ To be dev :
 - How to convert string to number (integer)
 - The display of the result and the result of each operation
 
+How to convert :
+
 let myString1 = "556"
 let myInt1 = Int(myString1)
 
