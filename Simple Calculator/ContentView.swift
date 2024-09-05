@@ -254,7 +254,7 @@ struct ContentView: View {
                         .frame(width: 50, height: 60)
                 }.padding(.bottom, 0).padding([.trailing, .leading], 12)
 
-       Button {
+   /*    Button {
                 action: do {
                     tempString
                 }
@@ -323,7 +323,7 @@ struct ContentView: View {
                         .frame(width: 50, height: 60)
                 }.padding(.bottom, 0).padding([.trailing, .leading], 12)
 
-Button {
+            Button {
                 action: do {
                     tempString
                 }
@@ -340,7 +340,7 @@ Button {
                         .frame(width: 50, height: 60)
                 }.padding(.bottom, 0).padding([.trailing, .leading], 12)
 
-
+*/
 
     }
 }
