@@ -14,7 +14,7 @@ Create button : Operational => -
 Create button : Operational => *
 Create button : Operational => /
 Create button : => AC / C
-Create button : result =
+Create button : result = : pre-debug OK
 
 To be dev :
 - We can't divide by zero
