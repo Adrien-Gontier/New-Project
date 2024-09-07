@@ -31,7 +31,7 @@ let myInt2 = Int(myString) ?? 0
 
 - How to do the operation
 - Do the UI of the button => NOW => In progress
-- Test the code : debugging begun
+- Test the code : debugging begun => In progress
 - Write the documentation
 
 
