@@ -29,7 +29,7 @@ let myInt1 = Int(myString1)
 let myInt2 = Int(myString) ?? 0
 
 
-- How to do the operation
+- How to do the operation and the algo
 - Do the UI of the button => NOW => In progress
 - Test the code : debugging begun => In progress
 - Write the documentation
