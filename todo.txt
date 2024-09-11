@@ -9,6 +9,7 @@ Create button : Numbers => 7 : pre-debug OK
 Create button : Numbers => 8 : pre-debug OK
 Create button : Numbers => 9 : pre-debug OK
 
+Do the HStack / VStack
 Create button : Operational => + : pre-debug OK
 Create button : Operational => -
 Create button : Operational => *
