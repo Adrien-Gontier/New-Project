@@ -34,6 +34,7 @@ let myInt2 = Int(myString) ?? 0
 - Do the UI of the button => NOW => In progress
 - Test the code : debugging begun => In progress
 - Write the documentation
+- UX / ui : colors of the buttons
 
 
 * RENAME THE PROJECT
