@@ -13,7 +13,7 @@ Do the HStack / VStack
 Create button : Operational => + : pre-debug OK
 Create button : Operational => -
 Create button : Operational => *
-Create button : Operational => /
+Create button : Operational => / : pre-debug OK
 Create button : => AC / C
 Create button : result = : pre-debug OK
 
