@@ -4,7 +4,7 @@ Simple calculator
 
 SWIFT
 
-description of the APP
+# Description
 
 Stack
 
